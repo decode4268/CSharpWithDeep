@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\virtualmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\virtualmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\methodtypesincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\methodtypesincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\staticandnotstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\staticandnotstatic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MethodTypesInCsharp.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\MethodTypesInCsharp.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\MethodTypesInCsharp.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\MethodTypesInCsharp.cs",
+              "RelativeToolTip": "CSharpWithDeep\\MethodTypesInCsharp.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowBsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T10:18:01.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VirtualMethod.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\VirtualMethod.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\VirtualMethod.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\VirtualMethod.cs",
+              "RelativeToolTip": "CSharpWithDeep\\VirtualMethod.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAASwCYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T10:06:44.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Notes.txt",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Notes.txt",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\Notes.txt",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Notes.txt",
+              "RelativeToolTip": "CSharpWithDeep\\Notes.txt",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAAAN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-19T10:01:05.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaticAndNotStatic.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\StaticAndNotStatic.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\StaticAndNotStatic.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\StaticAndNotStatic.cs",
+              "RelativeToolTip": "CSharpWithDeep\\StaticAndNotStatic.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T09:52:23.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

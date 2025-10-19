@@ -38,7 +38,55 @@ namespace CSharpWithDeep
             Console.WriteLine("hello from level msg!");
         }
         #endregion
-                
+
+    }
+
+
+    // non static class 
+    public class NonStaticClass
+    {
+        // field example 
+        int nonStaticField;
+        static int staticField;
+
+        //Property Example 
+        public int NonStaticProperty { get; set; }
+        public static int StaticProperty { get; set; }
+
+        // static method example
+        public static void StaticEg()
+        {
+            Console.WriteLine("This is the simple static method");
+        }
+        //non static method example
+        public void NonStaticEg()
+        {
+            Console.WriteLine("This is the simple non static method");
+        }
+    }
+
+    // static class
+    public static class StaticClass
+    {
+        // field example 
+       // int nonStaticField;
+        static int staticField;
+
+        //Property Example 
+       // public int NonStaticProperty { get; set; }
+        public static int StaticProperty { get; set; }
+
+        // static method example
+        public static void StaticEg()
+        {
+            Console.WriteLine("This is the simple static method");
+        }
+
+        //non static method example
+        //public void NonStaticEg()
+        //{
+        //    Console.WriteLine("This is the simple non static method");
+        //}
     }
 
     public class MethodClass

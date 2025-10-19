@@ -220,3 +220,13 @@ Debugging => Type
 
         // Task -2 : 
         // First and Last letter do the Capital 
+
+
+		==============================================================================
+
+
+					19-10-2025
+		Note: 
+		1. Inside static class only static member will be allowed ( for eg: Field, Property, Method)
+		2. Inside non-static class you can create static as well as non static member (for eg: Field,
+		   Property, Method.)
