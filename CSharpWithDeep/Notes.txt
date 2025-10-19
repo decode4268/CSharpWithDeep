@@ -1,0 +1,222 @@
+﻿
+What is C# ? 
+=> C# is a object oriented Programming language. (Java $ C# is almost same in syntax => Reason behind Anders Hejlaberg - 1996)
+
+Year 2002 - C# 1.0 .Net Framework 1.0 Visual 2002
+Year 2005 - C# 2.0 .Net Framework 2.0 Visual 2005
+Year 2007 - C# 3.0 .Net Framework 3.5 Visual 2008
+Year 2010 - C# 4.0 .Net Framework 4.0 Visual 2010
+Year 2012 - C# 5.0 .Net Framework 4.5 Visual 2012
+Year 2015 - C# 6.0 .Net Framework 4.6 Visual 2015
+Year 2017-18 -C# 7.0 .Net Framework 4.7.1 Visual 2012
+
+Year 2019 - C# 8.0 .Net core 3 ( First version to primarily target .Net core ) VS 2019
+Year 2020 - C# 9.0 .Net 5 VS 2019
+Year 2021 - C# 10.0 .Net 6 VS 2022
+Year 2022 - C# 11.0 .Net 7 VS 2022
+Year 2023 - C# 12.0 .Net 8 VS 2022
+Year 2024 - C# 13.0 .Net 9 VS 2022
+Year 2025 - C# 14.0 .Net 10 Visual Studio 2022 ( Preview)
+
+
+
+=> .Net Framework (Windows based Application) Vs .Net core(Cross-Platform => mean Support on all os like => Windows, MacOs, Linux)  => Important Point of Interview.
+
+=> C# release are categorized into two support parts => 
+		LTS(Long Term Support ) Release => 
+								1. LTS release supported duration for 3 years from their release date. 
+								2. Even numbered .Net version are typically LTS releases (e.g: .NET6, .NET8)
+		STS(Standard Term Support) 
+								1. STS release are supported for 18 months from their release date. 
+								2. Odd-numbered .NET version are typically LTS releases (e.g: .NET5, .NET7, .NET9)
+								
+
+---------------------------------------------------------------------------------------------
+
+	11/09/2025
+
+
+using System ; 
+namespace MyNamespace 
+{
+	class MyClass{
+		static void Main()
+		{
+			Console.WriteLine("Hello Deep")
+			Consol.Readkey();
+		}
+	}
+}
+
+=> Source Code 
+=> Compiler => Source code to machine code coversion work. 
+		CLR(Common language Runtime) => Source code => Machine Code => Process => 
+				MSIL(Microsoft Intermediate Language)Or IL(Intermediate Language) (.exe, .dll)
+
+=> .exe => It is Executable File. It contains Main method (Console Application - eg: Cmd).
+=> .dll => Dynamic Link Library. It does not contains Main method.(Supportable file).
+
+=> C# Sourc code => CLR - MSIL(.exe, .dll) - JIT(Just in time)=> Native(Machine) Code => OS => Run
+
+=> Compile Time => C# source code => CLR - MSIL (.exe, .dll)
+=> Run Time => JIT - Native (Machine ) Code - OS - Run
+
+-----------------------------------------------------------------------------------------------
+Microsoft Journey : 
+
+=> Console Application ( Best Template to learn C# ) => .exe=. 
+=> Windows Application or Desktop Application (.ext ) => First UI Application
+=> Web Application
+=> Mobile Application
+=> Web Api => Middle layer between web application or database. mobile application or database.
+=> Game Application ......................... etc.
+
+
+
+==============================================================================================
+			13/09/2025
+	
+=> Reserve keyword can not be use for your own purpose.
+Task 1 => 
+		Create a example for Country and State with class name.
+
+Task 2 => Take user two input for int (number ) and add them & substract them also
+	for eg : num1 = 10 , num2 = 5 =>
+			Add => num1 + num2 = 15
+			Substract =>  num1 - num2 = 5
+
+
+================================================================================================
+					14/09/2025
+
+Debugging => Type 
+	1. Step into (f11) => Debug inside a particular method.
+	2. Step over (f10) => Line by line debugging 
+	3. Step out (Shift + f11) => Out and continue the code without debugging.
+
+	Applying Debugger 
+	Disable Debugger 
+	Delete Debugger 
+
+
+=> Some notes 
+	- NameSpace => It's a collection of namespace and types. Types like class, struct, enum, interface, delegate. 
+	- Class => It is a container which contain the data member. Data member like field, property, Methods.
+	- Main Method => This is a member of a class and this is entry point. It means when you will run your 
+		application so this method will be execute first. 
+	- Static => It is a modifier. 
+	- Void => It means will not return anything. 
+
+
+	=================================================================================================
+						20/09/2025: 
+
+	Variable => It is a container which holds the value. And Value depends on the data type.
+	Data Type => It is define the type of data. 
+
+	Naming Convention Rule => 
+	PascalCase : NameSpace, Class, Struct, Enum, Delegate, Interface.. ect.
+	camelCase : field, local varialbe, variable, parameterized... etc.
+
+
+	==================================================================================================
+
+					22/10/2025 : 
+	- Static member will be access by the class Name & and without class name also. 
+	- Non-static member will be acess by a obj Name.
+
+	Static Members :- field, Property, Method - If static modifier is used it means it is static member.  
+	Non-Static Members :- field, Property, Method - If satic modifier is not used it means it is non static member.
+
+	Static Members :- You can access static member with the class name. 
+	Non Static Members :- You can access non-static member with the object name.
+
+
+	==================================================================================================
+					24/09/2025 :
+
+	Data Type: 
+
+	     Data Type Category
+         Pre-Define or System-Define Data Type
+         int, double, char, string, bool, object, etc..
+
+         User-Define Data Type
+         class, object, array, interface, delegate, enum, struct, etc..
+
+         Based on the memory allocation in C# Data type are two types which are follow as :
+
+         Value Type
+         int, double, char, bool, struc, enum, etc..
+         Default value is 0. 
+         It stores value on stack memory.
+         No Garbase Collector required for memeory management.
+
+
+         Reference Type
+         string, object, class, array, interface, delegate, etc..
+         Default value is null.
+         It stores value on Heap memory but reference on stack memeory.
+         Garbase Collector is required for memeory management.
+
+		 ==================================================================================================
+					27/09/2025 
+
+		=> The process of addition of two string or more string is called concatenation.
+		=> The process of addtion of tow number or more number is called addition.
+
+		Implicit Conversion & Explicit Conversion
+		Boxing & UnBoxing
+
+
+		==================================================================================================
+
+		02/10/2025
+
+		 // String Vs StringBuilder 
+
+        // String class is defined inside the System namespace.
+        // StringBuilder class is defined inside the System.Text namespace.
+
+        // The string class is Immutable. It means whenever you will create the instace then you can't change it. when will 
+        // change the value then it will store the value of the same ref but different memory location.
+        // Stringbuilder is Mutable. It means if you change the value then it will add the value to an existing memory location.
+
+        // The string is slower compared to StringBuilder.
+        // StringBuilder is faster than String.
+
+        // string requires more memory allocation. If you will change value constinously. 
+        // Because it will create the new instance for every change.
+        // StringBuilder requires less memory if you will change value constinously because it will update the value on the same 
+        // memeory location.
+
+        // Use String when : 
+        // You are performing few or no modifications to the string(like appeding, inserting, or deleting).
+        // You are working with short strings. 
+
+        // Use StringBuilder when :
+        // You are performing many modifications to the string (eg: in loops).
+        // You need better performance and memory efficiency especially with large repeated string operations.
+
+
+		===========================================================================================
+					  11-10-2025
+			//1. Upper letter count , Lower letter count, and space count 
+            // This is Cat 
+            // Upper Letters  = 2, 
+            // Lower Letters = 7, 
+            // Spaces = 2
+
+            // Find the highest number take the user input 4 number
+            // 12, 34, 56,76
+            // outpu => 76
+
+
+		// Task Do while Loop 
+        // Task -1 : 
+        // Take a input string from user
+        // Before reversing the result is : for eg (deepRaj) 
+        // After reversing the resulgt is : for eg (jaRpeed)
+
+        // Task -2 : 
+        // First and Last letter do the Capital 
