@@ -230,3 +230,29 @@ Debugging => Type
 		1. Inside static class only static member will be allowed ( for eg: Field, Property, Method)
 		2. Inside non-static class you can create static as well as non static member (for eg: Field,
 		   Property, Method.)
+
+	================================================================================
+
+
+		   Method types in C#;
+            // 1. Non-static method or Instance Method
+            // 2. Static Method 
+            // 3. Virtual Method
+			// 4. Abstract Method
+            // 5. Partial Method 
+            // 6. Extension Method 
+
+
+	Abstract Method : 
+	1. Whenever you will create abstract method that abstract method must be inside the abstract method.
+	2. It does not mean that you can create abstract class only if you have abstract method.
+	3. Because abstract class contains abstract as well as non-abstract method like( static, non-static and 
+	virtual etc).
+	4.Abstract method will not get a body. You can only declare.
+	5.If you want to use the abstract method then you will have to inherit abstract class with non-abstract class.
+	6.When inheritance is done then you will have to provide the body of all the abstract methods of the 
+	abstract class.
+	7.You can't access any members of the abstract class except static method.
+	8.Because you can't create the instance of abstract class.
+	9.All members will be accessed with derive class instance.
+
