@@ -104,6 +104,7 @@ namespace CSharpWithDeep
             // 3. Virtual Method 
             // 4. Partial Method 
             // 5. Extension Method 
+            // 6. Abstract Class
 
             //MethodTypesInCsharp obj = new MethodTypesInCsharp();
 
