@@ -63,6 +63,7 @@
     <Compile Include="Method Types\Abstract.cs" />
     <Compile Include="Method Types\ExtensionMethod.cs" />
     <Compile Include="Method Types\MethodTypesInCsharp.cs" />
+    <Compile Include="Method Types\PartialMethod.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -22,7 +22,7 @@ namespace CSharpWithDeep
             //Console.WriteLine("Subtract is : "+ obj.Substract(5, 2));
 
             Console.WriteLine("Multiply is : "+ derivedClassInstance.Multiply(10, 2)); 
-            Console.WriteLine("Division is : "+ derivedClassInstance.Division(50, 2));
+            //Console.WriteLine("Division is : "+ derivedClassInstance.Division(50, 2));
 
             Console.ReadKey();
 

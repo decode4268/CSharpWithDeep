@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CalculationDLL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -28,9 +29,19 @@ namespace CSharpWithDeep.Method_Types
             }
             return result;
         }
+
+        public static int Division(this Class1 cal, int fistNumber, int secondNumber)
+        {
+            return fistNumber / secondNumber;
+        }
         static void Main()
         {
-            ExtensionMethod.MakeFirstLetterCapital(name);
+            //ExtensionMethod.MakeFirstLetterCapital(name);
+            var obj = new Class1();
+            Console.WriteLine("Sum is : "+ obj.Add(20, 10));
+            Console.WriteLine("Sub is : "+ obj.Substract(20, 10));
+            Console.WriteLine("Mul is : "+ obj.Multiply(20, 10));
+            Console.WriteLine("Div is : "+ obj.Division(20, 10));
             Console.ReadKey();
         }
     }
