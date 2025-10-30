@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CSharpWithDeep.Method_Types
-{         
+{
     // All the partial class definitions must be in the same assembly and namespace.
     // The declaration of the partial method must begin with partial modifier. 
     // If any part is declare abstract, sealed or base type then the whole class is declared of the same type. 
-    
+
     // The partial method does not contain out parameters. 
     // It is implicitly private method. 
     // It can be a static method. 
@@ -22,11 +22,26 @@ namespace CSharpWithDeep.Method_Types
     // 1. When working on large projects, spreading a class over separate files enables multiple programmers to work on it at
     // the same time.
 
-    partial class PartialMethod
+    partial class Company
     {
-    }
-    partial class PartialMethod
-    {
-    }
+        partial void CalculateEmployeeSlarayOne();
 
+        partial void CalculateEmployeeLeaveTwo();
+
+        partial void CalculateYearlyHolidayThree();
+
+        partial void CalculateEmployeeSlarayOne()
+        {
+            Console.WriteLine("I am partial method CalculateEmployeeSlarayOne");
+        }
+        static void Main()
+        {
+            var obj = new Company();
+            obj.CalculateEmployeeSlarayOne();
+            obj.CalculateEmployeeLeaveTwo();
+            obj.CalculateYearlyHolidayThree();
+
+            Console.ReadKey();
+        }
+    }
 }

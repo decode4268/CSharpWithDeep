@@ -256,3 +256,45 @@ Debugging => Type
 	8.Because you can't create the instance of abstract class.
 	9.All members will be accessed with derive class instance.
 
+
+	===============================================================================================
+	Date : 30/10/2025
+
+	Partial Class and Partial Method : 
+
+	// All the partial class definitions must be in the same assembly and namespace.
+    // The declaration of the partial method must begin with partial modifier. 
+    // If any part is declare abstract, sealed or base type then the whole class is declared of the same type. 
+
+    // The partial method does not contain out parameters. 
+    // It is implicitly private method. 
+    // It can be a static method. 
+    // It can have only void return type. 
+    // Partial methods are implicitly private methods, so cannot be virtual. 
+    // A partial method is created only in partial class or in partial struct. 
+    // All the parts must have the same accessibility like public or private, etc..
+
+    // There are several situations when splitting a class definition is desirable: 
+    // 1. When working on large projects, spreading a class over separate files enables multiple programmers to work on it at
+    // the same time.
+
+
+
+	Sealed Class : 
+		=> When you want to prevent the class to being inherited then you will make the class sealed.
+
+	Constructor In CSharp => 
+        What is constructor ? - 
+        1- Constructor is a specail memeber of a class.
+        2- Constructor name will be same as a class name. 
+        3- Constructro does not have return type. 
+        4- Whenever you will create the instance of constructor then it will allocate a memory for the 
+        class members based on their data type and will also asign the defualt value to the class fields based on 
+        their data type.
+
+		Constructor Type in CSharp : 
+        1. Default or Parameterless Constructor
+        2. Parameteried Constructor 
+        3. Copy Constructor
+        4. Static Constructor 
+        5. Private Constructor
