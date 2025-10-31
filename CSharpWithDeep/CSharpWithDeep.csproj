@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.Method_Types.Company</StartupObject>
+    <StartupObject>CSharpWithDeep.Constructor.ParameterizedConstructor</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -53,6 +53,8 @@
     <Compile Include="BoxingAndUnboxing.cs" />
     <Compile Include="ConditionalConstruct.cs" />
     <Compile Include="Const&amp;ReadOnly.cs" />
+    <Compile Include="Constructor\Constructor.cs" />
+    <Compile Include="Constructor\ParameterizedConstructor.cs" />
     <Compile Include="ConsumeCutomDll.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DoWhile.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="Method Types\PartialInCsharpThree.cs" />
     <Compile Include="Method Types\PartialInCsharpTwo.cs" />
     <Compile Include="Method Types\PartialMethod.cs" />
+    <Compile Include="Method Types\SealedClass.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -6,31 +6,52 @@ using System.Threading.Tasks;
 
 namespace CSharpWithDeep.Constructor
 {
+    // Constructor Type in CSharp : 
+    // 1. Default or Parameterless Constructor
+    // 2. Parameteried Constructor 
+    // 3. Copy Constructor
+    // 4. Static Constructor 
+    // 5. Private Constructor
+
     public class Constructor
     {
-        int number; 
-        // Constructor in Csharp : 
-        // What is constructor ? - 
-        // 1- Constructor is a specail memeber of a class.
-        // 2- Constructor name will be same as a class name. 
-        // 3- Constructor does not have return type. 
-        // 4- Whenever you will create the instance of constructor then it will allocate a memory for the 
-        // class members based on their data type and will also asign the defualt value to the class fields based on 
-        // their data type.
 
-        // --------------------------------------------------------------
+        // 1. Default or Parameterless Constructor 
+        int _carModel;
+        string _carName;
+        bool _isValid;
 
-        // Constructor Type in CSharp : 
-        // 1. Default or Parameterless Constructor
-        // 2. Parameteried Constructor 
-        // 3. Copy Constructor
-        // 4. Static Constructor 
-        // 5. Private Constructor
+        public Constructor() //Parameterless Constructor
+        {
+            _carModel = 0;
+            _carName = null;
+            _isValid = false;
+        }
 
+        public Constructor(int number)
+        {
+
+        }
+
+        public Constructor(int number, int number2)
+        {
+
+        }
+
+        public void PrintCarDetails(int carModel, string carName)
+        {
+            Console.WriteLine("Car Model: " + carModel + " Car Name : " + carName);
+        }
 
         static void Main()
         {
+            var obj = new Constructor();
+            //var constructor = new Constructor(10);  // Automatically default constructor has called.
+            //Console.WriteLine(constructor._carModel);   // 0
+            //Console.WriteLine(constructor._carName);    // ""
+            //Console.WriteLine(constructor._isValid);    //true
 
+            Console.ReadKey();
         }
     }
 }
