@@ -300,3 +300,11 @@ Debugging => Type
         3. Copy Constructor
         4. Static Constructor 
         5. Private Constructor
+
+
+		=====================================================================================
+
+				   Date : 1/11/2025
+
+		Copy Constructor : A copy constructor is simple a constructor that creates a new object by copying data from another 
+		 object of the same type.
