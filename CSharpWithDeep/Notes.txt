@@ -308,3 +308,33 @@ Debugging => Type
 
 		Copy Constructor : A copy constructor is simple a constructor that creates a new object by copying data from another 
 		 object of the same type.
+
+
+		 // Static Constructor : 
+    // 1. Static Constructor does not allow any access specifier. 
+    // 2. If you have any static field inside the class then default static constructor will be created by the 
+    // compiler. 
+    // 3. You can create static constructor inside the static as well as non-static class.. 
+    // 4. You can't create more then one static constructor.
+    // 5. Because you can't pass parameters to the static constructor. 
+    // 6. Static constructor will be called at the first place when we have one more constructor. // To do for next 
+    // class.
+
+
+		=====================================================================================
+
+			Date : 3/11/2025
+
+		// Private Constructor 
+        // A Private constructor is a constructor that cannot be accessed from outside the class 
+        // It is declared using the private access modifier.
+        // Purpose : 
+        // To restrict object creation from outside the class. 
+        // To control how and when objects are created. 
+        // Generally used in Singleton Desing Pattern. 
+        // And used in static classes, where all members are static, and no instance is required. 
+        // use Cases: 
+        // Singleton pattern: Ensure only one instance of a class exist.
+
+	Note =>	Static class cannot have a public or private constructor because you can not create a
+			static class instance.

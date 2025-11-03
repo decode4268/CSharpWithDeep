@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.Constructor.CopyConstructor</StartupObject>
+    <StartupObject>CSharpWithDeep.Constructor.MyClass</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -56,6 +56,7 @@
     <Compile Include="Constructor\Constructor.cs" />
     <Compile Include="Constructor\CopyConstructor.cs" />
     <Compile Include="Constructor\ParameterizedConstructor.cs" />
+    <Compile Include="Constructor\PrivateConstructor.cs" />
     <Compile Include="Constructor\StaticConstructor.cs" />
     <Compile Include="ConsumeCutomDll.cs" />
     <Compile Include="DataType.cs" />

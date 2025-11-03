@@ -18,14 +18,19 @@ namespace CSharpWithDeep.Constructor
     class StaticConstructor
     {
         static int i;   // Static Field Variable 
-        static StaticConstructor()      // Static Constructor 
+        //static StaticConstructor()      // Static Constructor 
+        //{
+        //    Console.WriteLine("I am static Constructor");
+        //}
+        public StaticConstructor()
         {
-
+            Console.WriteLine("I am a Default or Parameterless constructor"); // non-static costructor
         }
-
         static void Main()
         {
-
+            //var obj = new StaticConstructor();
+            Console.WriteLine("I value is :" + i);
+            Console.ReadKey();
         }
     }
 }
