@@ -40,14 +40,35 @@ namespace CSharpWithDeep.Constructor
             Console.WriteLine("Dummy Method testing");
         }
 
-      
+
     }
 
-     class Helper
-    {
-        private Helper()
-        {
+    //class Helper
+    //{
+    //    private Helper()
+    //    {
 
+    //    }
+    //}
+
+    // Singelton Pattern Example : 
+    public class Singelton
+    {
+        // object is also know as instance.
+        //public static int number;
+        private static Singelton instance;
+
+        private Singelton()
+        {
+            Console.WriteLine("Private constructor called");
+        }
+
+        public static Singelton GetInstance()
+        {
+            if (instance == null)
+                instance = new Singelton();
+
+            return instance;
         }
     }
 
@@ -59,6 +80,12 @@ namespace CSharpWithDeep.Constructor
             //PrivateConstructor obj = PrivateConstructor.CreateObject();
             //PrivateConstructor.Displaymsg();
             //PrivateConstructor.DummyMethod();
+
+            Singelton instance1 = Singelton.GetInstance();
+            Singelton instance2 = Singelton.GetInstance();
+
+            Console.WriteLine(instance1 == instance2 ? "Same instace" : "Different instance");
+
         }
     }
 

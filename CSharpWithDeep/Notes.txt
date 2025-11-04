@@ -325,16 +325,16 @@ Debugging => Type
 
 			Date : 3/11/2025
 
-		// Private Constructor 
-        // A Private constructor is a constructor that cannot be accessed from outside the class 
-        // It is declared using the private access modifier.
-        // Purpose : 
-        // To restrict object creation from outside the class. 
-        // To control how and when objects are created. 
-        // Generally used in Singleton Desing Pattern. 
-        // And used in static classes, where all members are static, and no instance is required. 
-        // use Cases: 
-        // Singleton pattern: Ensure only one instance of a class exist.
+		 Private Constructor :
+         A Private constructor is a constructor that cannot be accessed from outside the class 
+         It is declared using the private access modifier.
+         Purpose : 
+         To restrict object creation from outside the class. 
+         To control how and when objects are created. 
+         Generally used in Singleton Desing Pattern. 
+         And used in static classes, where all members are static, and no instance is required. 
+         use Cases: 
+         Singleton pattern: Ensure only one instance of a class exist.
 
 	Note =>	Static class cannot have a public or private constructor because you can not create a
 			static class instance.

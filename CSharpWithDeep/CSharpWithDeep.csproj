@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.Constructor.MyClass</StartupObject>
+    <StartupObject>CSharpWithDeep.WorkingWithParameter</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -84,6 +84,7 @@
     <Compile Include="VarKeywordInCsharp.cs" />
     <Compile Include="Method Types\VirtualMethod.cs" />
     <Compile Include="WhileLoopProgram.cs" />
+    <Compile Include="WorkingWithParameter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
