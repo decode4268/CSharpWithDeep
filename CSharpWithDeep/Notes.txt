@@ -338,3 +338,41 @@ Debugging => Type
 
 	Note =>	Static class cannot have a public or private constructor because you can not create a
 			static class instance.
+
+
+============================================================================================
+
+		Date : 06/11/2025
+
+		// Working with Parameters : 
+        // 1- Pass by value 
+        // 2- Pass by ref 
+        // 3- Pass by out 
+        // 4- Pass by Param
+
+        //1. Pass by value : 
+        // When a variable is passed by value, a copy of the variable's data is sent to the method.
+        // That means any changes made insdie the method do not affect the original variable.
+
+
+		// 2. Pass by ref
+        // When a variable is passed by reference the memory address of the variable is sent to the method. 
+        // That means the method works on the original data not a copy.
+        // In case of the pass by ref you need to pass value along with the ref.
+
+        //Note : 
+        // In case of pass by value : The actuall value is not comming on params only copy of that particular 
+        // value is comming. (That means the actual value will not change here).
+        //In case of pass by ref : The actual value is passing through the parms. It means the actaul value will 
+        // also change in the case of pass by ref.
+
+
+		 // 3- Pass by out 
+        // When you use the out keyword the variable is passed by reference, just like ref, but with one key
+        // difference: 
+        // You don't need to initialize the variable before passing it. 
+        // The called method must assing a value to it before returing. 
+
+
+
+		Interface : 

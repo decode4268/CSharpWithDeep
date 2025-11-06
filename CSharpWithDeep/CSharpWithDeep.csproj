@@ -65,6 +65,7 @@
     <Compile Include="Foreach_Loop.cs" />
     <Compile Include="ForLoop.cs" />
     <Compile Include="ImplicitAndExplicitConversion.cs" />
+    <Compile Include="InterfaceInCSharp.cs" />
     <Compile Include="Method Types\Abstract.cs" />
     <Compile Include="Method Types\ExtensionMethod.cs" />
     <Compile Include="Method Types\MethodTypesInCsharp.cs" />
