@@ -51,20 +51,49 @@ namespace CSharpWithDeep
         int PassByOut(int x, int y, out int a)
         {
             x = x + 10;
-            y = x + 40; 
+            y = x + 40;
             a = x + y + 50;
             return x + y;
         }
 
         //4- Pass by Param
 
-        //int AddNumbers(int a, int b, int c, int d, int e)
+        //int AddNumbers(int a, int b, int c)
         //{
         //    return a + b + c;
         //}
+
+        //int AddValues(int[] values)
+        //{
+        //    int sum = 0;
+        //    foreach (var item in values)
+        //    {
+        //        //sum = sum + item;
+        //        sum += item;
+        //    }
+
+        //    return sum;
+        //}
+
+
+        int PaasByParm(params int[] values)
+        {
+            int sum = 0;
+            foreach (var item in values)
+            {
+                //sum = sum + item;
+                sum += item;
+            }
+
+            return sum;
+        }
+
         static void Main()
         {
             int i = 10, j = 20;
+
+            int a = 10, b = 20, c = 30, d = 40, e = 50, f = 60, g = 70;
+            int[] myValues = new int[] { 1, 2, 3, 4, 5, 6, 7 };
 
             var obj = new WorkingWithParameter();
 
@@ -88,7 +117,17 @@ namespace CSharpWithDeep
             //Console.WriteLine(i);
             //Console.WriteLine(j); 
             //Console.WriteLine(a); 
+
+
+            //-------------------------- Pass by Param example ---------------------------
+            //Console.WriteLine(obj.AddNumbers(a, b, c)); // 60
+            //Console.WriteLine(obj.AddValues(myValues)); //28
+
+            // Actual Example : 
+            Console.WriteLine(obj.PaasByParm(a, b, c, d, e, f, g));
+            Console.WriteLine(obj.PaasByParm(myValues));
             Console.ReadKey();
         }
     }
+
 }
