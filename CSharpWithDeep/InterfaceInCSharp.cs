@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -23,47 +24,77 @@ namespace CSharpWithDeep
     // 12 - We can't create the instance of object of interface.
     // 13 - In C#, multiple inheritance is not allowed but with the help of interface it is possible.
 
+    // Note : It is generally used in Repository Design Pattern..
+
     interface ICar
     {
-        void PrintNumber();
-        void PrintNumber2();
+        void CarFeatures();
+        string CarMusicInfo();
+        int CarMileage();
     }
 
 
-    public class MyClass2
+    public class MyClass
     {
-
-    }
-    public class MyClass3
-    {
-
-    }
-    public class MyClass4 : MyClass2, ICar
-    {
-        public void PrintNumber()
+        public MyClass()
         {
-           
+            Console.WriteLine("Deafult ctor is called of my class");
         }
-
-        public void PrintNumber2()
+        public void PrintMsg()
         {
+            Console.WriteLine("Dummy msg");
         }
     }
 
+    // Multiple Inheritance
+    public class MyClass2 : MyClass , ICar
+    {
+        public void CarFeatures()
+        {
+            Console.WriteLine("Car Feature");
+        }
+
+        public int CarMileage()
+        {
+            Console.WriteLine("Car Mileage");
+            return 0;
+        }
+
+        public string CarMusicInfo()
+        {
+            Console.WriteLine("Car Music Info");
+            return string.Empty;
+        }
+    }
     public class InterfaceInCSharp : ICar
     {
-        public void PrintNumber()
+
+
+        public void CarFeatures()
         {
-            
+            Console.WriteLine("Car Feature");
         }
-        public void PrintNumber2()
+
+        public int CarMileage()
         {
-            
+            Console.WriteLine("Car Mileage");
+            return 0;
+        }
+
+        public string CarMusicInfo()
+        {
+            Console.WriteLine("Car Music Info");
+            return string.Empty;
         }
 
         static void Main(string[] args)
         {
             //ICar obj = new ICar(); // cannot create..
+
+            InterfaceInCSharp obj = new InterfaceInCSharp();
+            obj.CarFeatures();
+            obj.CarMileage();
+            obj.CarMusicInfo();
         }
     }
 }

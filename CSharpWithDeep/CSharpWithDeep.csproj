@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.WorkingWithParameter</StartupObject>
+    <StartupObject>CSharpWithDeep.InterfaceInCSharp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccessSpecifier.cs" />
+    <Compile Include="ArrayInCSharp.cs" />
     <Compile Include="BoxingAndUnboxing.cs" />
     <Compile Include="ConditionalConstruct.cs" />
     <Compile Include="Const&amp;ReadOnly.cs" />
