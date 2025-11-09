@@ -34,67 +34,67 @@ namespace CSharpWithDeep
     }
 
 
-    public class MyClass
-    {
-        public MyClass()
-        {
-            Console.WriteLine("Deafult ctor is called of my class");
-        }
-        public void PrintMsg()
-        {
-            Console.WriteLine("Dummy msg");
-        }
-    }
+    //public class MyClass
+    //{
+    //    public MyClass()
+    //    {
+    //        Console.WriteLine("Deafult ctor is called of my class");
+    //    }
+    //    public void PrintMsg()
+    //    {
+    //        Console.WriteLine("Dummy msg");
+    //    }
+    //}
 
     // Multiple Inheritance
-    public class MyClass2 : MyClass , ICar
-    {
-        public void CarFeatures()
-        {
-            Console.WriteLine("Car Feature");
-        }
+    //public class MyClass2 : MyClass , ICar
+    //{
+    //    public void CarFeatures()
+    //    {
+    //        Console.WriteLine("Car Feature");
+    //    }
 
-        public int CarMileage()
-        {
-            Console.WriteLine("Car Mileage");
-            return 0;
-        }
+    //    public int CarMileage()
+    //    {
+    //        Console.WriteLine("Car Mileage");
+    //        return 0;
+    //    }
 
-        public string CarMusicInfo()
-        {
-            Console.WriteLine("Car Music Info");
-            return string.Empty;
-        }
-    }
-    public class InterfaceInCSharp : ICar
-    {
+    //    public string CarMusicInfo()
+    //    {
+    //        Console.WriteLine("Car Music Info");
+    //        return string.Empty;
+    //    }
+    //}
+    //public class InterfaceInCSharp : ICar
+    //{
 
 
-        public void CarFeatures()
-        {
-            Console.WriteLine("Car Feature");
-        }
+    //    public void CarFeatures()
+    //    {
+    //        Console.WriteLine("Car Feature");
+    //    }
 
-        public int CarMileage()
-        {
-            Console.WriteLine("Car Mileage");
-            return 0;
-        }
+    //    public int CarMileage()
+    //    {
+    //        Console.WriteLine("Car Mileage");
+    //        return 0;
+    //    }
 
-        public string CarMusicInfo()
-        {
-            Console.WriteLine("Car Music Info");
-            return string.Empty;
-        }
+    //    public string CarMusicInfo()
+    //    {
+    //        Console.WriteLine("Car Music Info");
+    //        return string.Empty;
+    //    }
 
-        static void Main(string[] args)
-        {
-            //ICar obj = new ICar(); // cannot create..
+    //    static void Main(string[] args)
+    //    {
+    //        //ICar obj = new ICar(); // cannot create..
 
-            InterfaceInCSharp obj = new InterfaceInCSharp();
-            obj.CarFeatures();
-            obj.CarMileage();
-            obj.CarMusicInfo();
-        }
-    }
+    //        InterfaceInCSharp obj = new InterfaceInCSharp();
+    //        obj.CarFeatures();
+    //        obj.CarMileage();
+    //        obj.CarMusicInfo();
+    //    }
+    //}
 }
