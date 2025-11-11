@@ -416,3 +416,39 @@ Debugging => Type
             // 1- Single Dimensional Array
             // 2- Multi Dimensional Array 
             // 3- Jagged Array 
+
+ ==========================================================================================================
+
+        Date : 11/11/2025
+
+  Structure and Enum In CSharp : 
+
+  Structure : 
+  Structure is similar to a class.
+  Class is a user define data type and struct is also a user define data type. 
+
+  Difference between struct and class: 
+  1- Class is a reference type where WWWstructure is a value type.
+  2- Class will allocate a memeory on heap to store the value where struct will allocate a memeory on stack 
+  to store the value. 
+  3- If you want to store the large amount of data then you should go with class and if you want to store the small amount 
+   of data then you should go with struct.
+
+
+   Note : 
+     =>  All the predefine reference data type which exist into library like string, object, have derive from class.
+
+     =>  All the predefine value data type which exist into library like int, double char, bool have derive from struct.
+
+     => If you want to call a class method then instance is required but with struct no need to create the instance.
+
+     => Inside the class we can assign the value to the field but it is not possible with the struct.
+
+     => Inside the class we can create any type of constructor but with struct you can't create parameter less constructor. 
+        But parameterized constructor will be allowed in struct.
+
+
+Enum :
+1- Enum is user define data type. 
+2- It is a value data type.                                 
+3- It has a default value int.

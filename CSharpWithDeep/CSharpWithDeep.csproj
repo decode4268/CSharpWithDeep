@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.ArrayInCSharp</StartupObject>
+    <StartupObject>MyNamespace.MyStruct</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -82,6 +82,7 @@
     <Compile Include="StringCollection.cs" />
     <Compile Include="StringVsStrinbuilider.cs" />
     <Compile Include="stringVsStringBuilderProgram.cs" />
+    <Compile Include="StructInCSharp.cs" />
     <Compile Include="VariableTypeInCSharp.cs" />
     <Compile Include="VarKeywordInCsharp.cs" />
     <Compile Include="Method Types\VirtualMethod.cs" />
