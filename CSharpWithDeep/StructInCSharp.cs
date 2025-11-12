@@ -27,8 +27,12 @@ namespace MyNamespace
         }
         static void Main()
         {
-            
+            int no= 8; 
             MyStruct obj = new MyStruct();
+            if ((int)WeekDays.Friday == no)
+            {
+
+            }
             obj.ShowMessage();
 
             Console.ReadKey();

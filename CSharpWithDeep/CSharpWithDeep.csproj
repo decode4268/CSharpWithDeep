@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MyNamespace.MyStruct</StartupObject>
+    <StartupObject>CSharpWithDeep.ExceptionHandlingInCSharp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -62,6 +62,7 @@
     <Compile Include="ConsumeCutomDll.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DoWhile.cs" />
+    <Compile Include="ExceptionHandlingInCSharp.cs" />
     <Compile Include="FactorialProgram.cs" />
     <Compile Include="Foreach_Loop.cs" />
     <Compile Include="ForLoop.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="Method Types\PartialInCsharpTwo.cs" />
     <Compile Include="Method Types\PartialMethod.cs" />
     <Compile Include="Method Types\SealedClass.cs" />
+    <Compile Include="MyClassWithEnumUseCase.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

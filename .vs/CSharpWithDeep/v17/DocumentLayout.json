@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\workingwithparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\exceptionhandlingincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\exceptionhandlingincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\myclasswithenumusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\myclasswithenumusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\structincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\structincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|D:\\POC\\CSharp_Training\\CSharpWithDeep\\csharpwithdeep\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|D:\\POC\\CSharp_Training\\CSharpWithDeep\\csharpwithdeep\\arrayincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\arrayincsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|D:\\POC\\CSharp_Training\\CSharpWithDeep\\csharpwithdeep\\workingwithparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\workingwithparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|D:\\POC\\CSharp_Training\\CSharpWithDeep\\csharpwithdeep\\constructor\\privateconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\constructor\\privateconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|d:\\poc\\csharp_training\\csharpwithdeep\\csharpwithdeep\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|solutionrelative:csharpwithdeep\\notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C762FBF2-3D0A-4CA7-AFA2-9081C1303C42}|CSharpWithDeep\\CSharpWithDeep.csproj|D:\\POC\\CSharp_Training\\CSharpWithDeep\\csharpwithdeep\\constructor\\staticconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,13 +94,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Notes.txt",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Notes.txt",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Notes.txt",
               "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Notes.txt",
               "RelativeToolTip": "CSharpWithDeep\\Notes.txt",
-              "ViewState": "AgIAADgBAAAAAAAAAAAUwEcBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAALMBAAAAAAAAAAAswMQBAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-10-19T10:01:05.735Z",
               "IsPinned": true,
@@ -93,19 +109,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WorkingWithParameter.cs",
-              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\WorkingWithParameter.cs",
-              "RelativeDocumentMoniker": "CSharpWithDeep\\WorkingWithParameter.cs",
-              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\WorkingWithParameter.cs",
-              "RelativeToolTip": "CSharpWithDeep\\WorkingWithParameter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAABOAAAAAAAAAA==",
+              "Title": "ExceptionHandlingInCSharp.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\ExceptionHandlingInCSharp.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\ExceptionHandlingInCSharp.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\ExceptionHandlingInCSharp.cs",
+              "RelativeToolTip": "CSharpWithDeep\\ExceptionHandlingInCSharp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T16:38:34.892Z",
+              "WhenOpened": "2025-11-12T16:17:24.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MyClassWithEnumUseCase.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\MyClassWithEnumUseCase.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\MyClassWithEnumUseCase.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\MyClassWithEnumUseCase.cs",
+              "RelativeToolTip": "CSharpWithDeep\\MyClassWithEnumUseCase.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T15:40:03.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StructInCSharp.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\StructInCSharp.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\StructInCSharp.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\StructInCSharp.cs",
+              "RelativeToolTip": "CSharpWithDeep\\StructInCSharp.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T15:55:12.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ArrayInCSharp.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\ArrayInCSharp.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\ArrayInCSharp.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\ArrayInCSharp.cs",
+              "RelativeToolTip": "CSharpWithDeep\\ArrayInCSharp.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-08T10:21:01.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkingWithParameter.cs",
+              "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\WorkingWithParameter.cs",
+              "RelativeDocumentMoniker": "CSharpWithDeep\\WorkingWithParameter.cs",
+              "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\WorkingWithParameter.cs",
+              "RelativeToolTip": "CSharpWithDeep\\WorkingWithParameter.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAewEgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T16:38:34.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "PrivateConstructor.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Constructor\\PrivateConstructor.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Constructor\\PrivateConstructor.cs",
@@ -113,24 +179,23 @@
               "RelativeToolTip": "CSharpWithDeep\\Constructor\\PrivateConstructor.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAArwEEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T15:59:07.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-03T15:59:07.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "StaticConstructor.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Constructor\\StaticConstructor.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Constructor\\StaticConstructor.cs",
               "ToolTip": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Constructor\\StaticConstructor.cs",
               "RelativeToolTip": "CSharpWithDeep\\Constructor\\StaticConstructor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-01T10:07:44.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "CopyConstructor.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Constructor\\CopyConstructor.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Constructor\\CopyConstructor.cs",
@@ -142,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ParameterizedConstructor.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Constructor\\ParameterizedConstructor.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Constructor\\ParameterizedConstructor.cs",
@@ -154,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Constructor.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Constructor\\Constructor.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Constructor\\Constructor.cs",
@@ -167,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "SealedClass.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\SealedClass.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\SealedClass.cs",
@@ -179,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "PartialInCsharpThree.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\PartialInCsharpThree.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\PartialInCsharpThree.cs",
@@ -191,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PartialInCsharpTwo.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\PartialInCsharpTwo.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\PartialInCsharpTwo.cs",
@@ -204,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "PartialMethod.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\PartialMethod.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\PartialMethod.cs",
@@ -216,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ConsumeCutomDll.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\ConsumeCutomDll.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\ConsumeCutomDll.cs",
@@ -228,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "DoWhile.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\DoWhile.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\DoWhile.cs",
@@ -240,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ExtensionMethod.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\ExtensionMethod.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\ExtensionMethod.cs",
@@ -252,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "VirtualMethod.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\VirtualMethod.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\VirtualMethod.cs",
@@ -264,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Abstract.cs",
               "DocumentMoniker": "D:\\POC\\CSharp_Training\\CSharpWithDeep\\CSharpWithDeep\\Method Types\\Abstract.cs",
               "RelativeDocumentMoniker": "CSharpWithDeep\\Method Types\\Abstract.cs",
