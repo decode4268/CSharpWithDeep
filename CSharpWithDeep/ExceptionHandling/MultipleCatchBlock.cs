@@ -12,11 +12,13 @@ namespace CSharpWithDeep
         {
             try
             {
-                int a = 100;
-                int[] arr = { 1, 2, 3 };
-                Console.WriteLine(arr[2]); // Index out of Range Exception.
+                //int a = 100;
+                //int[] arr = { 1, 2, 3 };
+                //Console.WriteLine(arr[2]); // Index out of Range Exception.
 
-                int result = a / 0;
+                //int result = a / 0;
+
+                throw new DivideByZeroException();
             }
             catch (DivideByZeroException ex)
             {

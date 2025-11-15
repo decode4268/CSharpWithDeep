@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.MultipleCatchBlock</StartupObject>
+    <StartupObject>CSharpWithDeep.ExceptionHandling.Normal</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -60,9 +60,11 @@
     <Compile Include="Constructor\PrivateConstructor.cs" />
     <Compile Include="Constructor\StaticConstructor.cs" />
     <Compile Include="ConsumeCutomDll.cs" />
+    <Compile Include="ExceptionHandling\CustomeExceptionHandling.cs" />
     <Compile Include="DataType.cs" />
     <Compile Include="DoWhile.cs" />
-    <Compile Include="ExceptionHandlingInCSharp.cs" />
+    <Compile Include="ExceptionHandling\ExceptionHandlingInCSharp.cs" />
+    <Compile Include="ExceptionHandling\InvalidMarks.cs" />
     <Compile Include="FactorialProgram.cs" />
     <Compile Include="Foreach_Loop.cs" />
     <Compile Include="ForLoop.cs" />
@@ -75,7 +77,7 @@
     <Compile Include="Method Types\PartialInCsharpTwo.cs" />
     <Compile Include="Method Types\PartialMethod.cs" />
     <Compile Include="Method Types\SealedClass.cs" />
-    <Compile Include="MultipleCatchBlock.cs" />
+    <Compile Include="ExceptionHandling\MultipleCatchBlock.cs" />
     <Compile Include="MyClassWithEnumUseCase.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="Program.cs" />

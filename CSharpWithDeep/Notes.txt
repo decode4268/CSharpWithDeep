@@ -452,3 +452,9 @@ Enum :
 1- Enum is user define data type. 
 2- It is a value data type.                                 
 3- It has a default value int.
+
+
+============================================
+                           HW:
+InvalidCastException
+ArgumentNullException
