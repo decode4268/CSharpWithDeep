@@ -458,3 +458,9 @@ Enum :
                            HW:
 InvalidCastException
 ArgumentNullException
+
+
+=====================================================================================
+
+Note : Default Access Specifier (Modifier) of Class is Internal 
+       Default Access Specifier (Modifier) of Class member like field, Properties, metod etc is Private.
