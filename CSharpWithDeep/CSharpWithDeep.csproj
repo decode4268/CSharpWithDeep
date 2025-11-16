@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.ExceptionHandling.Normal</StartupObject>
+    <StartupObject>CSharpWithDeep.Company</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -69,6 +69,7 @@
     <Compile Include="Foreach_Loop.cs" />
     <Compile Include="ForLoop.cs" />
     <Compile Include="ImplicitAndExplicitConversion.cs" />
+    <Compile Include="IndexPropertyInCSharp.cs" />
     <Compile Include="InterfaceInCSharp.cs" />
     <Compile Include="Method Types\Abstract.cs" />
     <Compile Include="Method Types\ExtensionMethod.cs" />
@@ -80,7 +81,9 @@
     <Compile Include="ExceptionHandling\MultipleCatchBlock.cs" />
     <Compile Include="MyClassWithEnumUseCase.cs" />
     <Compile Include="Operator.cs" />
+    <Compile Include="PracticeProgram\FindMaxElementInArray.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadonlyAndConstPractice.cs" />
     <Compile Include="StaticAndNotStatic.cs" />
