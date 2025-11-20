@@ -464,3 +464,146 @@ ArgumentNullException
 
 Note : Default Access Specifier (Modifier) of Class is Internal 
        Default Access Specifier (Modifier) of Class member like field, Properties, metod etc is Private.
+
+
+
+
+=====================================================================================
+        Collection : 
+
+         Collection in C# 
+         What is Collection ?
+         Collection are classes that store and manage groups of realted object.
+         Store multiple values
+         Add / Remove / Update Item
+         Perform searching and Sorting type of work.
+         In C# Collection exist in the System.Collections
+
+         Why do not use Arrays instead Collections 
+         - Array     : Fixed size  , Type-specific, Limited feature , Not to much built in method avaiable.
+         - Collection: Dynamic size, Can store any type of value, Support sorting, searching, Lots of library of method.
+
+        Types of Collections : 
+
+        1- Non-Generic Collection (System.Collections)
+        => ArrayList, Stack, Queue, SortedList, HashTable
+
+        2- Generic Collection (System.Collections.Generic)
+        => List<T>, Dictionary<Tkey, TValue>, Stack<T>, Queue<T>, SortedList<T>, HashSet<T>
+        -----------------------------------------------------------------------------------------
+
+        1.ArrayList
+         a.ArrayList belong to System.Collection
+         b.It stores elements as obj type, not a specific type.
+         c.Because of this, It supports mixed data types in the same list.
+         d. It is Dynamic in size unlike Array.
+         e. Since ArrayList store elements as object, value type(int, char, string, bool... etc) are boxed when stored. 
+            When retrieving them, unboxing happens. 
+            This makes arraylist slower compared to generic collection or Array.
+         f. No Compile time type checking, Errors may occur at runtime. 
+        
+
+
+         -------------------------------------------------------------------------------------------
+
+            ArrayList method : 
+
+            Add(); // to add the new element in arraylist.
+            Insert();
+            InsertRange();  // InsertRange multiple itemat a specific position.
+            Remove(false); // Remove the first occurence of an item.
+            RemoveAt(2);
+            RemoveRange(1, 2); // Remove multiple item starting from an index
+            Clear(); // Remove all elements from the list
+            Contains => Check whether an item exists in the arraylist.
+            Indexof() => Return index of item (first match)        // 10,20,30,20
+            Sort() => Sorts the arraylist in ascending order.
+            Reverse() => reverse the order of items.
+            Count() => Return the no of item in arraylist.
+
+    ================================================================================================
+
+        Hashtable : - 
+            - Hashtable belongs to the System.Collections namespace. 
+            - It is a non-generic collection - Key and values are stored as obj.
+            - No type safety - any type of key/value can be added. 
+            - Allow Mixed Data types allowed because it stores everything as obj.
+            - Hashtable does not maintain insertion order. 
+            - Null values are allowed. 
+            - Null keys are not allowed (exception throw if you will try.)
+            - Automatically grows or shrinks as item are added or removed.
+            - No need to define size in advance.
+            - Faster than ArrayList for large data because of hashing. 
+            - But slower than generic Dictionary<key, Value>.
+
+        Use Cases : 
+            Hashtable is useful : 
+              1. You need to sotre key-value pairs. 
+              2. Type-safety is not required. 
+              3. When you are working on large application or Project.
+
+            Method : 
+            1. Add(key, value)- add item. 
+            2. Remove(key) - remove item.
+            3. ContainsKey(key) - check if key exists. 
+            4. ContainsValue(value) - check if value exists. 
+            5. Clear() - remove all items. 
+            6. Count() - get no of items. 
+
+================================================================================================
+            
+          Stack : 
+
+            - Stack belongs to the System.Collections namespace. 
+            - Stack is a Last-In-First-Out(LIFO) collections.
+            - The item that is added last will be remove first.
+            - Work like a stack of plates : the top - most plate is removed first.
+            - Stores elements as an object - not provide type safety.
+            - No fixed size, it will be dynamic. 
+            - Duplicate and null values are allowed .
+            - Access only from the top , can not access index-based item. 
+             
+
+         Use Cases : 
+
+            - Good for : 
+                Undo Operations
+                Backtracking 
+                Reversing Data 
+        Methods : 
+            
+            Push(item) - Adds item to top 
+            Pop()     - Removes and returns top item. 
+            Peek()  - Returns top item without removing the item. 
+            Contains() - Check if item exist or not.
+            Clear() - Remove all item. 
+            Count() - No of item.
+
+         ================================================================================================
+              Queue: 
+
+              - Queqe is a first-in-first-out(FIFO) collections. 
+              - The item that enters first is removed first. 
+              - Works like a line at a ticket counter. 
+
+            Key Points : 
+               
+               - Stores items as obj - type safety 
+               - Dynamic in size
+               - Maintains order of insertion 
+               - Allows duplicates and null value. 
+
+            Use Case: 
+               - Best for : 
+                    1. Task Scheduling 
+                    2. Message or Notificaiton processing. 
+                    3. Order-based execution. 
+
+            Methods : 
+                
+                Enqueue(item) - Adds item to end 
+                Dequeue() - Removes and returns first item.
+                Peek() - Returns fist item without removing 
+                Contains() - Check if exist or not. 
+                Clear() - Remove all 
+                Count() - Total no of item.

@@ -42,6 +42,38 @@ namespace CSharpWithDeep.CollectionInCsharp
             }
             //Console.WriteLine(list.Count - 1);
         }
+        public void HashTableCollection()
+        {
+            Hashtable ht = new Hashtable();
+            ht.Add("Id", 1);
+            ht.Add("Name", "Deepraj");
+            ht.Add("Salary", 50000);
+
+            //Console.WriteLine(ht["Name"]);
+            //ht.Remove("Id");
+
+            //Console.WriteLine(ht.ContainsKey("Name"));     //    true
+            //Console.WriteLine(ht.ContainsValue("Salary"));   //     false
+            //ht.Clear();
+
+            //foreach (DictionaryEntry item in ht)
+            //{
+            //    Console.WriteLine(item.Key + " = " + item.Value);
+            //}
+
+        }
+        public void StackCollection()
+        {
+            Stack stack = new Stack();
+
+            stack.Push(10);
+            stack.Push(20);
+            stack.Push("Deepraj");
+
+            Console.WriteLine(stack.Peek());
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Pop());
+        }
     }
 
     public class CollectionInCsharpOneLecture
@@ -71,8 +103,11 @@ namespace CSharpWithDeep.CollectionInCsharp
         static void Main()
         {
             NonGenericCollection obj = new NonGenericCollection();
-            obj.ArrayListCollection();
+            //obj.ArrayListCollection();   // ArrayList
 
+            //obj.HashTableCollection();
+
+            obj.StackCollection();
             Console.ReadKey();
         }
 
