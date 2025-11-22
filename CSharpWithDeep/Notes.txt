@@ -602,8 +602,41 @@ Note : Default Access Specifier (Modifier) of Class is Internal
             Methods : 
                 
                 Enqueue(item) - Adds item to end 
-                Dequeue() - Removes and returns first item.
+                Dequeue() - Removes entire apart from first item, and returns only first item.
                 Peek() - Returns fist item without removing 
                 Contains() - Check if exist or not. 
                 Clear() - Remove all 
                 Count() - Total no of item.
+
+    
+         ================================================================================================
+                SortedList : 
+
+                - SortedList belongs to the System.Collections namespace. 
+                - A collection that stores data in key-value pairs. 
+                - Automatically sorts based on the key. 
+                - Combines feature of both ArrayList and Hashtable.
+
+              Key Points : 
+                - Non-generic - Stores keys & Value as object. 
+                - Key must be unique
+                - Stored by defautl in ascending order. 
+                - Access by : 
+                    key => k1[key]
+                    Index => k1.GetByIndex(5);
+
+               Use Case : 
+                  - You need to sort the date based on the key-value data.
+                  - Sorted order. 
+
+               Methods : 
+
+                  - Add(key, value) - Add key-value pair
+                  - Remove(key) - Remove item by key
+                  - RemoveAt(index) - Remove item by position. 
+                  - ContainsKey(key) - check exist by key. 
+                  - ContainsValue(value) - check exist by value. 
+                  - GetKey(index) - Get key based on the index. 
+                  - GetByIndex(index) - Get value by position 
+                  - Count - total items.
+                  - clear() - Remove all 

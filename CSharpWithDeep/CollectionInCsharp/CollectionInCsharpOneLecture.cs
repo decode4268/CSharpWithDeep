@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,7 +28,7 @@ namespace CSharpWithDeep.CollectionInCsharp
             list.Add("DeepRaj");
             //list.AddRange(new int[] { 1, 2, 3, 4, 5 });// Add multiple item at once.
             //list.Insert(0, true);
-            //list.InsertRange(1, new string[] { "B", "C" });  // InsertRange multiple itemat a specific position.
+            //list.InsertRange(1, new string[] { "B", "C" });  // InsertRange multiple item at a specific position.
             //list.Insert(1, false);
 
             //list.Remove(false); // Remove the first occurence of an item.
@@ -74,6 +75,50 @@ namespace CSharpWithDeep.CollectionInCsharp
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
         }
+        public void QueueCollection()
+        {
+            Queue q = new Queue();
+            q.Enqueue(1);
+            q.Enqueue(2);
+            q.Enqueue(3);
+            q.Enqueue(4);
+            //q.Enqueue("Rajput");
+            //q.Enqueue(false);
+
+            Console.WriteLine(q.Dequeue());      // remove all item apart from first item and return first item.
+            Console.WriteLine(q.Peek());         // it will not remove item and also return first item.
+            Console.WriteLine(q.Contains(5));
+
+            //foreach (var item in q)
+            //{
+            //    Console.WriteLine("Item of q is : "+ item);
+            //}
+        }
+        public void SortedListCollection()
+        {
+            SortedList sortedList = new SortedList();
+
+            sortedList.Add(3, "Rahul"); 
+            sortedList.Add(2, "Govind"); 
+            sortedList.Add(1, "Deepraj");
+
+            //sortedList.Remove(3);
+            Console.WriteLine(sortedList.ContainsKey(3));
+            Console.WriteLine(sortedList.ContainsValue(1));
+            //ContainsKey(key) - check exist by key.
+            //      - ContainsValue(value) - check exist by value.
+            //      - GetKey(index) - Get key based on the index.
+            //      - GetByIndex(index) - Get value by position
+            //      - Count - total items.
+            //      - clear()
+            //sortedList.Clear();
+
+            //foreach (DictionaryEntry item in sortedList)
+            //{
+            //    Console.WriteLine(item.Key + " = " + item.Value);     // 1 = Deepraj
+            //}
+
+        }
     }
 
     public class CollectionInCsharpOneLecture
@@ -107,9 +152,10 @@ namespace CSharpWithDeep.CollectionInCsharp
 
             //obj.HashTableCollection();
 
-            obj.StackCollection();
+            //obj.StackCollection();
+            //obj.QueueCollection();
+            obj.SortedListCollection();
             Console.ReadKey();
         }
-
     }
 }
