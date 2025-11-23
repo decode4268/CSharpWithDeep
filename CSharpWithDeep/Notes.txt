@@ -640,3 +640,39 @@ Note : Default Access Specifier (Modifier) of Class is Internal
                   - GetByIndex(index) - Get value by position 
                   - Count - total items.
                   - clear() - Remove all 
+
+  ==================================================================================================================
+
+    Generic Collection : 
+
+    1. List<T>  : It is a strongly typed, dynmaic array uesd to store a collection elements of elements of a 
+                  specific type.
+                - List<T> belongs to the System.Collections.Generic namespace
+                - It is the generic version of Arralist. 
+                - All elements must be of type T (eg: int, string, Student... etc.)
+                - Size increase automatically when new item are added.
+                - Provides index-based access.
+                - Provide type safety : 
+                       List<int> list = new List<int>(); 
+                    No valid data like "string" can be added in above list.
+                - Boxing and Unoboxing will not happen that why this is faster compare to Arraylist.
+                - Duplicate allows
+                - Linq (Language integrated query) supports available. 
+
+        Methods : 
+            
+               Add(item) => Add new elements
+               AddRange(collections) => add multiple elements 
+               Insert(index, item)  => Insert elements at item. 
+               Remove(item)     => Remove first occurence from list item. 
+               RemoveAt(index)  => Remove by index. 
+               RemoveRange(start, count)    =>    Removes serveral items. 
+               Contains(item)   =>          Check if exist.
+               Indexof(item)    =>          Returns index of elements.
+               Count            =>          Number of elements.
+               Clear()          =>          Remove all elements
+               Sort()           =>          Sort the list 
+               Reverse(0)       =>          Reverse the list
+               ToArray()        =>          Convert to array
+               Find()           =>          Return first match.
+               FindAll()        =>          Returns all matching item.s

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -98,8 +99,8 @@ namespace CSharpWithDeep.CollectionInCsharp
         {
             SortedList sortedList = new SortedList();
 
-            sortedList.Add(3, "Rahul"); 
-            sortedList.Add(2, "Govind"); 
+            sortedList.Add(3, "Rahul");
+            sortedList.Add(2, "Govind");
             sortedList.Add(1, "Deepraj");
 
             //sortedList.Remove(3);
@@ -119,6 +120,70 @@ namespace CSharpWithDeep.CollectionInCsharp
             //}
 
         }
+    }
+
+    public class GenericCollection
+    {
+        //List<T>, Dictionary<Tkey, TValue>, Stack<T>, Queue<T>, SortedList<T>, HashSet<T>
+
+        // List with object type 
+        class Student
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+        }
+        public void ListGenericCollection()
+        {
+            // List with int data type
+            List<int> numbers = new List<int>();
+
+            numbers.Add(10);
+            numbers.Add(20);
+            numbers.Add(30);
+            //Console.WriteLine(numbers[0]);
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            /// List with string data type
+            var names = new List<string>();
+
+            names.Add("Rohit");
+            names.Add("Rahul");
+            names.Add("Admit");
+            names.Add("Deep");
+
+
+            names.Insert(1, "Deepraj");
+            names.Sort();
+            names.Reverse();
+            //foreach (var item in names)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+
+            // List with object type 
+            List<Student> students = new List<Student>();
+            students.Add(new Student { Id = 1, Name = "Deepraj" });
+            students.Add(new Student { Id = 2, Name = "Rohit" });
+            students.Add(new Student { Id = 3, Name = "Govind" });
+            students.Add(new Student { Id = 4, Name = "Amit" });
+            students.Add(new Student { Id = 5, Name = "Bhanu" });
+
+
+            students.Sort((stu1, stu2) => stu1.Name.CompareTo(stu2.Name));
+
+            foreach (var student in students)
+            {
+                Console.WriteLine($"{student.Id} - {student.Name}");
+            }
+
+        }
+
+
+
     }
 
     public class CollectionInCsharpOneLecture
@@ -154,7 +219,10 @@ namespace CSharpWithDeep.CollectionInCsharp
 
             //obj.StackCollection();
             //obj.QueueCollection();
-            obj.SortedListCollection();
+            //obj.SortedListCollection();
+
+            GenericCollection generic = new GenericCollection();
+            generic.ListGenericCollection();
             Console.ReadKey();
         }
     }
