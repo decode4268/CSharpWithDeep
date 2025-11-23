@@ -172,18 +172,88 @@ namespace CSharpWithDeep.CollectionInCsharp
             students.Add(new Student { Id = 4, Name = "Amit" });
             students.Add(new Student { Id = 5, Name = "Bhanu" });
 
-
             students.Sort((stu1, stu2) => stu1.Name.CompareTo(stu2.Name));
+            //foreach (var student in students)
+            //{
+            //    Console.WriteLine($"{student.Id} - {student.Name}");
+            //}
 
-            foreach (var student in students)
+            List<int> num = new List<int> { 5, 12, 7, 15, 2, 20 };
+
+            int firstLargenum = num.Find(n => n > 10);
+            var allLarge = num.FindAll(n => n > 10);
+            //Console.WriteLine("The firstLarge no is : " + firstLargenum);
+            foreach (var item in allLarge)
             {
-                Console.WriteLine($"{student.Id} - {student.Name}");
+                Console.WriteLine(item);
             }
+        }
+
+        class Employee
+        {
+            public string Name { get; set; }
+            public string Salary { get; set; }
+        }
+
+        public void DictionaryCollection()
+        {
+
+            Dictionary<int, Employee> empDict = new Dictionary<int, Employee>();
+
+            empDict.Add(1, new Employee { Name = "Deepraj", Salary = "4500" });
+            empDict.Add(2, new Employee { Name = "Govind", Salary = "5000" });
+
+            foreach (var item in empDict)
+            {
+                Console.WriteLine($"{item.Key} = {item.Value.Name} ({item.Value.Salary}) ");
+            }
+
+
+            //Dictionary<int, String> dict = new Dictionary<int, string>();
+            //dict.Add(1, "Rahul");
+            //dict.Add(2, "Rajnish");
+            //dict.Add(3, "Deepraj");
+            //dict.Add(4, "Govind");
+
+            //Console.WriteLine(dict[3]);
+
+            //dict.Remove(3);
+            //foreach (var item in dict)
+            //{
+            //    Console.WriteLine(item.Key + " = " + item.Value);
+            //}
+
+            //if (dict.ContainsKey(3))
+            //{
+            //    Console.WriteLine("Key 3 found");
+            //}
+
+            //string name = string.Empty;
+            //if (dict.TryGetValue(3, out name))
+            //{
+            //    Console.WriteLine("Value = "+ name);
+            //}
+
+            //dict[3] = "Deepraj Rajput";
+            //Console.WriteLine(dict[3]);
 
         }
 
+        public void SortedSetCollection()
+        {
+            SortedSet<int> numbers = new SortedSet<int>();
 
+            numbers.Add(30);
+            numbers.Add(20);
+            numbers.Add(10);
+            numbers.Add(5);
+            numbers.Add(5);   // Duplicate, ignored
 
+            foreach (var item in numbers)
+            {
+                Console.WriteLine(item);
+            }
+        }
     }
 
     public class CollectionInCsharpOneLecture
@@ -222,7 +292,9 @@ namespace CSharpWithDeep.CollectionInCsharp
             //obj.SortedListCollection();
 
             GenericCollection generic = new GenericCollection();
-            generic.ListGenericCollection();
+            //generic.ListGenericCollection();
+            //generic.DictionaryCollection();
+            generic.SortedSetCollection();
             Console.ReadKey();
         }
     }

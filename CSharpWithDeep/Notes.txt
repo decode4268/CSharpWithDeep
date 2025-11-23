@@ -676,3 +676,63 @@ Note : Default Access Specifier (Modifier) of Class is Internal
                ToArray()        =>          Convert to array
                Find()           =>          Return first match.
                FindAll()        =>          Returns all matching item.s
+
+ ==================================================================================================================
+    2. Dictionary 
+        
+            => A Dictionary is a generic collection that stores data as key-value pair, where 
+                Key => Must be unique. 
+                Value => Can be duplicate. 
+            => It is the generic version of Hashtable, But : 
+                - Type-Safe
+                - Faster performance 
+                - No Boxing/Unboxing 
+                - Better for real-worl application
+                - Value can be duplicated. 
+                - No guaranteed order of items(not sorted)
+
+
+        Use case : 
+                Configuration Setting in real world application
+
+    ------------------------------------------------------------
+
+        Methods: 
+                - Add(key, value)       => Add a new key-value pair
+                - Remove(key)           => Remove item by key
+                - ContainsKey(key)      => Check if key exist
+                - ContainsValue(value)  => Check if value exist
+                - TryGetValue(key, out value) => Safe fetch without error 
+                - Count                 => Total number of items. 
+                - Clear()               => Removes all items
+                - Keys                  => Returns all keys
+                - Values                => Returns all values
+                - this[key]             => Get/sets value by key
+
+------------------------------------------------------------
+
+    SortedSet: 
+            
+            SortedSet<T> is a collection of unique elements that are automatically sorted in ascending order. 
+
+            It combines two features: 
+                - HashSet => Only unique items.
+                - Sorted/SortedDictionary => Automatically sorted.
+                - Stores unique, type-safe items. 
+                - Maintains automatic storing 
+                - No duplicate values allowed. 
+                - Fast searching, insertion, and deletion.
+                - No index-based access like List<T> 
+
+
+            UseCase : 
+                 
+                - You need unique value or Sorted value or fast searching or need set operation (like Union, Intersect, Excep)
+
+
+            Methods : 
+                Add(item)        => Add an item
+                Remove(item)    => 'remove item
+                Contain(key)    => return true and false based on the key. 
+                Clear()         => remove all items.
+                Count           => Total count.
