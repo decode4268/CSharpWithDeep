@@ -732,7 +732,88 @@ Note : Default Access Specifier (Modifier) of Class is Internal
 
             Methods : 
                 Add(item)        => Add an item
-                Remove(item)    => 'remove item
+                Remove(item)    => Remove item
                 Contain(key)    => return true and false based on the key. 
                 Clear()         => remove all items.
                 Count           => Total count.
+                UnionWith(set)  => 
+
+ ========================================================================================================================================
+
+   Stack<T> : 
+              
+              Stack<T> is a strongly type colleciton that stores item in a LIFO(Last-In_First-out) order 
+                - The last inserted item is the first to be remove. 
+                - Like a stack of books, the book you put last is removed first.
+                - No index based access 
+                - Dynamic in size. 
+                - Allow duplicate values 
+                - Fast push and pop operations
+
+    Use Case : 
+               - LIFO behavior 
+               - You want to reverse a collection
+               - You tract function calls(Recursion)
+
+
+    Method: 
+
+            Push(item) - Add item to the top 
+            Pop()   - Remove & Return the top item.
+            Peek()  - Retruns top item without removing 
+            Contains(item) - 
+            Clear()     - 
+            Count       -
+            ToArray     - Convert into to array.
+
+
+========================================================================================================================================
+        
+   Queue<T> 
+            - Contains inside System.Collection.Generic 
+            - It is a strongly typed collection that store elements in FIFO order. 
+            - Works like people standing in a queue at a ticket counter. 
+            - Type safety provided by this. 
+            - Dynamic in size. 
+            - Allow dupkicate values. 
+            - No index based access 
+
+   Use Case => 
+
+            - For Processing or scheduling a task in a sequence way. 
+            - You need FIFO Order task 
+
+    Method : 
+            
+            Enqueue(item) => Add item to the end of queue 
+            Deqeue()    => Remove and return item from first. 
+            Peek()      => Return first item without removing 
+            Contains() => 
+            Clear()     => Remove all item. 
+            Count       => Get no of elements. 
+            ToArray()   => Convert the queue to the array
+
+
+ ========================================================================================================================================
+
+ HashSet<T> 
+              - Contains inside System.Collection.Generic 
+              - It is a unique-value collection that : 
+                    Stores only unique elements or item. 
+                    Does not maintain order (no indexing). 
+                    Uses hashing internally -> Very fast search, add, remove
+              - Useful for set operation.
+   
+ Use Case => 
+               Fast searching
+               Impelement Set Operation(union, intersection)
+               Remove quickly duplication.
+
+Method =>       
+            Add(item) =>    Add unique item.
+            Contains => 
+            Remove(item)  => Removes specific item. 
+            Clear() => All items clear
+            UnionWith(set)=> Union operation, 
+            IntersectWith(set)=> Intersect
+            ExceptWith(set)   => Difference

@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -241,18 +243,123 @@ namespace CSharpWithDeep.CollectionInCsharp
 
         public void SortedSetCollection()
         {
-            SortedSet<int> numbers = new SortedSet<int>();
+            //SortedSet<int> numbers = new SortedSet<int>();
 
-            numbers.Add(30);
-            numbers.Add(20);
-            numbers.Add(10);
-            numbers.Add(5);
-            numbers.Add(5);   // Duplicate, ignored
+            //numbers.Add(30);
+            //numbers.Add(20);
+            //numbers.Add(10);
+            //numbers.Add(5);
+            //numbers.Add(5);   // Duplicate, ignored
+
+            //foreach (var item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            // Union Example 
+            SortedSet<int> set1 = new SortedSet<int> { 1, 3, 5 };
+            SortedSet<int> set2 = new SortedSet<int> { 2, 3, 5, 4 };
+
+            set2.UnionWith(set1);
+            Console.WriteLine(set2.Min);
+            Console.WriteLine(set2.Max);
+
+
+            //foreach (var item in set2)
+            //{
+            //    Console.WriteLine(item);
+            //}
+        }
+
+        public void StackCollection()
+        {
+            // Stack example using Generic class (Employee)
+            //Stack<Employee> stack = new Stack<Employee>();
+            //stack.Push(new Employee { Name = "Deepraj", Salary = "50K" });
+            //Employee emp = stack.Pop();
+            //var data = stack.FirstOrDefault();
+            //if (data != null)
+            //{
+            //    Console.WriteLine(data.Name + " " + data.Salary);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No data available in stack collection");
+            //}
+            //Console.WriteLine(stack.First());
+            //foreach(var item in stack)
+            //{
+            //    Console.WriteLine(item.Name + " " + item.Salary);
+            //}
+
+
+            // Stack using string 
+
+            Stack<string> stack = new Stack<string>();
+            stack.Push("A");
+            stack.Push("B");
+            stack.Push("C");
+            stack.Push("D");
+
+            //Console.WriteLine(stack.Contains("F")); //
+
+            List<int> list = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+
+            Stack<int> stackList = new Stack<int>(list);  // Behaviour in LIFO 
+
+            foreach (var item in stackList)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        public void QueueCollection()
+        {
+            Queue<int> numbers = new Queue<int>();
+            numbers.Enqueue(10);
+            numbers.Enqueue(20);
+            numbers.Enqueue(30);
+            numbers.Enqueue(40);
+
+            numbers.Dequeue(); // 10
+
+            Console.WriteLine(numbers.Peek());
 
             foreach (var item in numbers)
             {
                 Console.WriteLine(item);
             }
+        }
+        public void HashSetCollection()
+        {
+            //HashSet<int> set = new HashSet<int>();
+            //set.Add(10);
+            //set.Add(20);
+            //set.Add(30);
+            //set.Add(40);
+            //set.Add(20);
+
+            //foreach (var item in set)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            // HashSet for Removing Duplicates. 
+            //int[] arry = { 1, 2, 3, 3, 4, 4, 5 };
+
+            //HashSet<int> unique = new HashSet<int>(arry);
+
+            //foreach (var item in unique)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            // Set Operations 
+            HashSet<int> set1 = new HashSet<int> { 1, 2, 3 };
+            HashSet<int> set2 = new HashSet<int> { 3, 4, 5 };
+
+            set1.ExceptWith(set2);
+            set1.UnionWith(set2);
+            Console.WriteLine(set1.ToArray());
         }
     }
 
@@ -294,7 +401,10 @@ namespace CSharpWithDeep.CollectionInCsharp
             GenericCollection generic = new GenericCollection();
             //generic.ListGenericCollection();
             //generic.DictionaryCollection();
-            generic.SortedSetCollection();
+            //generic.SortedSetCollection();
+            //generic.StackCollection();
+            //generic.QueueCollection();
+            generic.HashSetCollection();
             Console.ReadKey();
         }
     }
