@@ -357,9 +357,17 @@ namespace CSharpWithDeep.CollectionInCsharp
             HashSet<int> set1 = new HashSet<int> { 1, 2, 3 };
             HashSet<int> set2 = new HashSet<int> { 3, 4, 5 };
 
-            set1.ExceptWith(set2);
-            set1.UnionWith(set2);
-            Console.WriteLine(set1.ToArray());
+            ////set1.ExceptWith(set2);
+            //set1.UnionWith(set2);
+
+            HashSet<int> intersectset = new HashSet<int>(set1);
+            intersectset.UnionWith(set2);
+
+            Console.WriteLine("\nUnion (Se1 U Set2)");
+            foreach (var item in intersectset)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 

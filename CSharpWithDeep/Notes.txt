@@ -817,3 +817,27 @@ Method =>
             UnionWith(set)=> Union operation, 
             IntersectWith(set)=> Intersect
             ExceptWith(set)   => Difference
+
+
+ ========================================================================================================================================
+                Date : 28/11/2025
+ 
+ Thread:-
+        A thread is the smallest unit of execution in a program.
+            Process => run the Application 
+            Thread => sub-task inside a procees.      
+        A single program can run multiple threads concurrently.
+
+        Example : 
+            Main thread(default thread)
+            Background thread
+            Worker thread.
+
+   Why we use thread ? 
+        - Perfomr multiple task concurrently. 
+        - Better CPU urilization
+        - Improves performance. 
+        - use in : 
+            - File uploads.
+            - Parallel execution
+            - Background task

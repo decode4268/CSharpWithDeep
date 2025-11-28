@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.CollectionInCsharp.CollectionInCsharpOneLecture</StartupObject>
+    <StartupObject>CSharpWithDeep.PracticeProgram.ThreadType</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -83,6 +83,8 @@
     <Compile Include="MyClassWithEnumUseCase.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="PracticeProgram\FindMaxElementInArray.cs" />
+    <Compile Include="PracticeProgram\ThreadProgram1.cs" />
+    <Compile Include="PracticeProgram\ThreadType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +94,7 @@
     <Compile Include="StringVsStrinbuilider.cs" />
     <Compile Include="stringVsStringBuilderProgram.cs" />
     <Compile Include="StructInCSharp.cs" />
+    <Compile Include="ThreadingInC#\BasicThreadExample.cs" />
     <Compile Include="VariableTypeInCSharp.cs" />
     <Compile Include="VarKeywordInCsharp.cs" />
     <Compile Include="Method Types\VirtualMethod.cs" />
@@ -104,5 +107,6 @@
   <ItemGroup>
     <Content Include="Notes.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
