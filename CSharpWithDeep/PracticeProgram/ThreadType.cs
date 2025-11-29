@@ -52,5 +52,11 @@ namespace CSharpWithDeep.PracticeProgram
             Console.WriteLine("Main thread ends. but app waits for foreground thread.");
 
         }
+
+        async Task DonwloadData()
+        {
+           await Task.Delay(2000);
+            Console.WriteLine("Data download!");
+        }
     }
 }

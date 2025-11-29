@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.PracticeProgram.ThreadType</StartupObject>
+    <StartupObject>CSharpWithDeep.ThreadingInC_.MultithreadingInCSharp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="AccessSpecifier.cs" />
     <Compile Include="ArrayInCSharp.cs" />
+    <Compile Include="AsyncAndAwait.cs" />
     <Compile Include="BoxingAndUnboxing.cs" />
     <Compile Include="CollectionInCsharp\CollectionInCsharpOneLecture.cs" />
     <Compile Include="ConditionalConstruct.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="stringVsStringBuilderProgram.cs" />
     <Compile Include="StructInCSharp.cs" />
     <Compile Include="ThreadingInC#\BasicThreadExample.cs" />
+    <Compile Include="ThreadingInC#\MultithreadingInCSharp.cs" />
     <Compile Include="VariableTypeInCSharp.cs" />
     <Compile Include="VarKeywordInCsharp.cs" />
     <Compile Include="Method Types\VirtualMethod.cs" />

@@ -841,3 +841,23 @@ Method =>
             - File uploads.
             - Parallel execution
             - Background task
+
+=============================================================================
+ 
+    Thread, Task, Async/await, 
+
+    Task => A higher level abstraction over Thread.
+            Best for : 
+                a. Parallel operation,
+                b. Asynchronous File I/O 
+                c. CPU bound work that should not block UI
+
+
+
+====================================================
+    
+   async/await =>
+        1. calling api
+        2. Database queries. 
+        3. File read/write
+        4. Long running background task.
