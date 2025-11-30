@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpWithDeep.ThreadingInC_.MultithreadingInCSharp</StartupObject>
+    <StartupObject>CSharpWithDeep.CollectionCurd.CollectionCurdAppls</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CalculationDLL">
@@ -53,6 +53,8 @@
     <Compile Include="ArrayInCSharp.cs" />
     <Compile Include="AsyncAndAwait.cs" />
     <Compile Include="BoxingAndUnboxing.cs" />
+    <Compile Include="CollectionCurd\CollectionCurdAppls.cs" />
+    <Compile Include="CollectionCurd\Employee.cs" />
     <Compile Include="CollectionInCsharp\CollectionInCsharpOneLecture.cs" />
     <Compile Include="ConditionalConstruct.cs" />
     <Compile Include="Const&amp;ReadOnly.cs" />
