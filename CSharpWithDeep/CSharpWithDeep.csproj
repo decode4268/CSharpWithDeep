@@ -55,6 +55,7 @@
     <Compile Include="BoxingAndUnboxing.cs" />
     <Compile Include="CollectionCurd\CollectionCurdAppls.cs" />
     <Compile Include="CollectionCurd\Employee.cs" />
+    <Compile Include="CollectionCurd\UserChoice.cs" />
     <Compile Include="CollectionInCsharp\CollectionInCsharpOneLecture.cs" />
     <Compile Include="ConditionalConstruct.cs" />
     <Compile Include="Const&amp;ReadOnly.cs" />
