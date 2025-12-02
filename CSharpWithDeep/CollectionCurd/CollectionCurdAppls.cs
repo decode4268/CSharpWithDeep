@@ -47,6 +47,9 @@ namespace CSharpWithDeep.CollectionCurd
                         Console.WriteLine("---------------");
                         break;
                     case UserChoice.UpdateDetails:
+                        Console.WriteLine(GetEmployeeDetailsForUpdate());
+                        Console.WriteLine();
+                        Console.WriteLine("---------------");
                         break;
                     case UserChoice.DeleteDetails:
                         break;
@@ -63,6 +66,7 @@ namespace CSharpWithDeep.CollectionCurd
             Console.ReadKey();
         }
 
+        // Store the employee information into the Employee Class.
         static Employee UserInfoForAdd()
         {
             var employee = new Employee();
@@ -82,14 +86,16 @@ namespace CSharpWithDeep.CollectionCurd
             return employee;
         }
 
+        // Add the Employee info into the List collection if email is valid or Email does not 
+        // exist in the employeeList collection.
         static string SaveEmployeeDetails(Employee employee)
         {
             if (!string.IsNullOrEmpty(employee.EmailId))
             {
-                if (IsEmailExist(employee.EmailId))
+                if (IsEmailExist(employee.EmailId)) // check that email already exist in the collection if email already exist then return the below message.
                 {
-                    return "Oops! Email Id already exist. Pleae try again with other email Id";
-                }
+                    return "Oops! Email Id already exist. Please try again with other email Id";
+                } 
             }
             else
             {
@@ -109,6 +115,8 @@ namespace CSharpWithDeep.CollectionCurd
             return "Record successfully Save.";
         }
 
+        // Show All EmployeeDetails from employeeList collection which is stored during the 
+        // SaveEmployeeDetails
         static void ShowAllEmployeeDetails()
         {
             Console.WriteLine("----------- Please find below all employee Details----------");
@@ -121,6 +129,9 @@ namespace CSharpWithDeep.CollectionCurd
             }
         }
 
+        // Method to find the single Employee detials from SingleEmployeesDetails 
+        // based on the taken user input emailid, if employee data is null then return the 
+        // message .
         static string FindSingleEmployeeDetail()
         {
             string message = string.Empty;
@@ -153,6 +164,8 @@ namespace CSharpWithDeep.CollectionCurd
             return null;
         }
 
+        // Get the single record based on the emailId and store in the Employee Class and 
+        // Update the Value in the collection based on the email.
         static string GetEmployeeDetailsForUpdate()
         {
             string message = string.Empty;
@@ -167,12 +180,36 @@ namespace CSharpWithDeep.CollectionCurd
                 employee.Age = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please enter the city");
                 employee.City = Console.ReadLine();
+                employee.EmailId = emailId;
+
+
+                message = UpdateEmployeeDetails(employee); // Call this method to update the employee in the list Employee Collection.
             }
             else
             {
                 message = "Email id does not exist into our records";
             }
             return message; 
+        }
+
+        static string UpdateEmployeeDetails(Employee employee)
+        {
+            string message = string.Empty;
+            if (employee != null)
+            {
+                var employeeFromlist = employessList.
+                    FirstOrDefault(e => e.EmailId.ToLower().Trim() == employee.EmailId.ToLower().Trim());
+                employeeFromlist.Name = employee.Name;
+                employeeFromlist.Age = employee.Age;
+                employeeFromlist.City = employee.City;
+
+                message = "Record update Succesfully";
+            }
+            else
+            {
+                message = "Error Occured!";
+            }
+            return message;
         }
 
         #region CommonHelper Method
