@@ -52,6 +52,9 @@ namespace CSharpWithDeep.CollectionCurd
                         Console.WriteLine("---------------");
                         break;
                     case UserChoice.DeleteDetails:
+                        Console.WriteLine("Please enter the email");
+                        var emailId = Console.ReadLine();
+                        DeleteEmployeeByEmail(emailId);
                         break;
                     case UserChoice.Exit:
                         isItOk = false;
@@ -212,6 +215,26 @@ namespace CSharpWithDeep.CollectionCurd
             return message;
         }
 
+        // Delete the Employee from list employee collection base on emailId
+
+        static void DeleteEmployeeByEmail(string emailId)
+        {
+            if (IsEmailExist(emailId))  // true
+            {
+                var employee = employessList.
+                     FirstOrDefault(x => x.EmailId.ToLower().Trim() == emailId.ToLower().Trim());
+                if (employee != null)   // This will not happen because IsEmailExist already check.
+                {
+                    employessList.Remove(employee);
+                    Console.WriteLine("Record Deleted Successfully!");
+                }
+            }
+            else
+            {
+                Console.WriteLine("The provided email doesn't exist in our system");
+            }
+        }
+
         #region CommonHelper Method
         static bool IsEmailExist(string emailId)
         {
@@ -233,6 +256,5 @@ namespace CSharpWithDeep.CollectionCurd
             return isEmailExist;
         }
         #endregion
-
     }
 }
