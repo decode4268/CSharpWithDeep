@@ -861,3 +861,39 @@ Method =>
         2. Database queries. 
         3. File read/write
         4. Long running background task.
+
+
+=================================================================================================================================
+    
+    OOPS Concept :-
+
+    1- Inheritance 
+    2- Abstraaction
+    3- Encapsulation
+    4- Polymorphism
+
+
+1- Inheritance 
+Types of Inheritance 
+1-Single Inheritance => BaseClass or Parent - DeriveClass or Child
+2-Multilevel Inheritnace => BaseClass - DeriveClass - DeriveClass
+3-Hierarchical Inheritnace => BaseClass - DeriveClass1- Baseclass-Deriveclass2
+
+Advange of Inheritance : 
+1- It reduces code redundancy. 
+2- It Provides code reusability. 
+3- After using this code is easy to manage and divide into parent and child classes. 
+
+------------------------------------------------------------------------------
+Encapsulation: 
+         Encapsulation means wrapping data or variables and method or functions into a single unit
+         means(class) and protecting the data using access modifier. 
+
+Abstraction: 
+
+Polymorphism = Many Forms     
+
+    Allow : 
+        1. Same Method name
+        2. Different behaviour 
+        3. Based on the obj type at runtime.

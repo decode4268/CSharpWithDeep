@@ -85,6 +85,7 @@
     <Compile Include="Method Types\SealedClass.cs" />
     <Compile Include="ExceptionHandling\MultipleCatchBlock.cs" />
     <Compile Include="MyClassWithEnumUseCase.cs" />
+    <Compile Include="OOPS\Encapsulation.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="PracticeProgram\FindMaxElementInArray.cs" />
     <Compile Include="PracticeProgram\ThreadProgram1.cs" />

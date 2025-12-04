@@ -98,7 +98,7 @@ namespace CSharpWithDeep.CollectionCurd
                 if (IsEmailExist(employee.EmailId)) // check that email already exist in the collection if email already exist then return the below message.
                 {
                     return "Oops! Email Id already exist. Please try again with other email Id";
-                } 
+                }
             }
             else
             {
@@ -192,7 +192,7 @@ namespace CSharpWithDeep.CollectionCurd
             {
                 message = "Email id does not exist into our records";
             }
-            return message; 
+            return message;
         }
 
         static string UpdateEmployeeDetails(Employee employee)
@@ -216,7 +216,6 @@ namespace CSharpWithDeep.CollectionCurd
         }
 
         // Delete the Employee from list employee collection base on emailId
-
         static void DeleteEmployeeByEmail(string emailId)
         {
             if (IsEmailExist(emailId))  // true
@@ -228,11 +227,49 @@ namespace CSharpWithDeep.CollectionCurd
                     employessList.Remove(employee);
                     Console.WriteLine("Record Deleted Successfully!");
                 }
+                else
+                {
+                    Console.WriteLine("Oops! Error Occured");
+                }
             }
             else
             {
                 Console.WriteLine("The provided email doesn't exist in our system");
             }
+        }
+
+        // Other Way to Delete the Employee from List Collection.
+        static string DeleteEmployeeFromCollection()
+        {
+            string msg = string.Empty;
+            Console.WriteLine("Please enter the emailId");
+            var emailId = Console.ReadLine();
+            if (!string.IsNullOrEmpty(emailId))
+            {
+                var data = DeleteEmployee(emailId);
+                if (data == true)
+                {
+                    msg = "Employee removed successfully";
+                }
+                else
+                {
+                    msg = "Something went wrong!";
+                }
+            }
+            return msg;
+        }
+
+        static bool DeleteEmployee(string emailId)
+        {
+            bool isDelete = false;
+            var employeeFromList = employessList.
+                FirstOrDefault(x => x.EmailId.ToLower().Trim() == emailId.ToLower().Trim());
+            if (employeeFromList != null)
+            {
+                employessList.Remove(employeeFromList);
+                isDelete = true;
+            }
+            return isDelete;
         }
 
         #region CommonHelper Method
