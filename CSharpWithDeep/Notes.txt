@@ -897,3 +897,7 @@ Polymorphism = Many Forms
         1. Same Method name
         2. Different behaviour 
         3. Based on the obj type at runtime.
+
+    Types of Polymorphism : 
+        1.Compile-time polymorphism(Method Overloading or Early Binding)
+        2.Runtime polymorphism (Method overriding or Late Binding)
